@@ -16,10 +16,10 @@ function CardOld ({stateName, cityName, landName}){
             <div id="state-title"> {stateData?.name} </div>
             <div id="state-description"> {stateData?.description}</div>
     
-            <div id="city-title"> {cityData?.name}</div>
+            <div id="city-name"> {cityData?.name}</div>
             <div id="city-description">{cityData?.description} </div>
     
-            <div id="landmark-title">{landmarkData?.name} </div>
+            <div id="landmark-name">{landmarkData?.name} </div>
             <div id="landmark-description">{landmarkData?.description} </div>
         </div>
     )
